@@ -1,0 +1,23 @@
+Hi, this is a document to clarify the game rules and which project to open
+The file named "Project2" is the one with the tests, it works with the console instead of a GUI
+the file named "Project2Gui" is the official one
+
+Game Rules:
+When opening the game, there are 9 buttons on each side
+select five of these buttons for each side
+
+You can start a new game, or load your previous save
+(the saves are automatic)
+
+when starting the game, troop information is displayed on the right side of the screen
+The gold box highlights which troop you are using right now
+
+on the info screen, there will be 3 buttons
+click a button, and some buttons on the left screen will enable
+click one of these "select" buttons to apply the action to that troop
+click "choose" to confirm your choice
+
+now repeat with the other troops
+this is meant to be a 2 player game, a player for each side
+
+You can exit out at any time, and the game will autosave

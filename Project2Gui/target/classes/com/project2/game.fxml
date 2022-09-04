@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project2.Controller">
+   <children>
+      <VBox alignment="BASELINE_CENTER" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <HBox prefHeight="150.0" prefWidth="500.0">
+               <children>
+                  <VBox fx:id="Top1" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Top2" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Top3" alignment="CENTER" layoutX="110.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Top4" alignment="CENTER" layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Top5" alignment="CENTER" layoutX="310.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="200.0" prefWidth="500.0" spacing="50.0">
+               <children>
+                  <Button fx:id="btnTie" mnemonicParsing="false" onAction="#tie" prefHeight="66.0" prefWidth="170.0" text="Agree On Tie">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblOutcome">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="500.0">
+               <children>
+                  <VBox fx:id="Bottom1" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Bottom2" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Bottom3" alignment="CENTER" layoutX="110.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Bottom4" alignment="CENTER" layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="Bottom5" alignment="CENTER" layoutX="310.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#selectTroop" prefHeight="38.0" prefWidth="67.0" text="Select">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" prefHeight="0.0" prefWidth="100.0" text="Label" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="100.0" text="Label">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" prefHeight="500.0" prefWidth="300.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="300.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" text="Selected Troop:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblTroopName" alignment="CENTER" prefHeight="60.0" prefWidth="300.0" text="troop name" />
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="88.0" prefWidth="300.0" spacing="25.0">
+               <children>
+                  <Button fx:id="option1" mnemonicParsing="false" onAction="#selectAction" prefHeight="80.0" prefWidth="74.0" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="option2" layoutX="123.0" layoutY="13.0" mnemonicParsing="false" onAction="#selectAction" prefHeight="96.0" prefWidth="74.0" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="option3" layoutX="160.0" layoutY="13.0" mnemonicParsing="false" onAction="#selectAction" prefHeight="104.0" prefWidth="74.0" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <VBox prefHeight="300.0" prefWidth="300.0">
+               <children>
+                  <Label fx:id="lblDescription" alignment="TOP_LEFT" prefHeight="100.0" prefWidth="300.0" wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblDescriptionContent" prefHeight="240.0" prefWidth="313.0" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Button fx:id="btnChoose" graphicTextGap="0.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="40.0" prefWidth="200.0" text="Choose">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>
